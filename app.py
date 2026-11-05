@@ -217,3 +217,17 @@ print(f"Address parts: {address_parts}")
 # Then print rejoined so that the output reads: Rejoined: 123 Main Street | Springfield | IL.
 rejoined = ' | '.join(address_parts)
 print(f'Rejoined: {rejoined}')
+
+# Step 17
+# Sometimes you need to check how a string starts. Python provides a method .startswith() for this. It returns True if the string begins with a given prefix; otherwise, it returns False.
+
+# Here's an example:
+
+# Example Code
+# code = 'EMP-001'
+# print(code.startswith('EMP')) # True
+# print(code.startswith('001')) # False
+# Create a variable employee_code and assign it the string EMP-2024-SD. Then create a starts_with_emp variable that checks if employee_code starts with EMP.
+
+employee_code = 'EMP-2024-SD'
+starts_with_emp = employee_code.startswith("EMP")

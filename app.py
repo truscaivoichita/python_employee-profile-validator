@@ -63,3 +63,14 @@ print(f'Has @ symbol: {has_at}')
 # Then print has_com so that the output reads: Has .com: True.
 has_com = '.com' in email
 print(f'Has .com: {has_com}')
+
+# Step 7
+# Real-world data is often messy with extra spaces and inconsistent casing.
+
+# Create a variable messy_name and assign it the string sARaH dAVis with two leading spaces and two trailing spaces. Then print it so that the output reads:
+
+# Example Code
+# Original name: '  sARaH dAVis  '
+# You will clean this up in the coming steps.
+messy_name = '  sARaH dAVis  '
+print(f"Original name: '{messy_name}'")

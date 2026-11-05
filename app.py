@@ -190,3 +190,17 @@ phone = '123-456-7890'
 clean_phone = phone.replace("-", "")
 print(f'Phone with dashes: {phone}')
 print(f'Phone without dashes: {clean_phone}')
+
+# Step 15
+# The .split(separator) method splits a string into a list of substrings at each occurrence of separator. For example:
+
+# Example Code
+# fruits = 'apple, banana, cherry'
+# parts = fruits.split(', ')
+# print(parts)  # Output: ['apple', 'banana', 'cherry']
+# Create a variable full_address and assign it the string 123 Main Street, Springfield, IL. Then create address_parts by splitting on a comma followed by a single space.
+
+# Then print address_parts so that the output reads Address parts: ['123 Main Street', 'Springfield', 'IL'].
+full_address = '123 Main Street, Springfield, IL'
+address_parts = full_address.split(", ")
+print(f"Address parts: {address_parts}")

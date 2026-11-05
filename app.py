@@ -74,3 +74,13 @@ print(f'Has .com: {has_com}')
 # You will clean this up in the coming steps.
 messy_name = '  sARaH dAVis  '
 print(f"Original name: '{messy_name}'")
+
+# Step 8
+# The .title() method capitalizes the first letter of each word. Here is an example:
+
+# Example Code
+# lowercase = 'hello world'
+# title_case = lowercase.title()
+# print(title_case)  # Output: Hello World
+# Create a variable named clean_name and assign it the result of calling .title() on messy_name.
+clean_name = messy_name.title()

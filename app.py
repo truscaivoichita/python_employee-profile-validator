@@ -171,3 +171,22 @@ print(f'Username: {email_user}')
 # Then print display_name so that the output reads: Display name: Sarah Davis.
 display_name = email_user.replace(".", " ").title()
 print(f'Display name: {display_name}')
+
+# Step 14
+# You can also use .replace() to remove unwanted characters. For example, removing dashes from a phone number:
+
+# Example Code
+# phone = '456-147'
+# clean = phone.replace('-', '')
+# print(clean)  # Output: 456147
+# Create a variable phone and assign it the string 123-456-7890. Then replace - with an empty string and assign the result to a variable named phone_clean.
+
+# Then print both so that the output reads:
+
+# Example Code
+# Phone with dashes: 123-456-7890
+# Phone without dashes: 1234567890
+phone = '123-456-7890'
+clean_phone = phone.replace("-", "")
+print(f'Phone with dashes: {phone}')
+print(f'Phone without dashes: {clean_phone}')

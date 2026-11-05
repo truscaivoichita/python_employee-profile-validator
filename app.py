@@ -83,4 +83,23 @@ print(f"Original name: '{messy_name}'")
 # title_case = lowercase.title()
 # print(title_case)  # Output: Hello World
 # Create a variable named clean_name and assign it the result of calling .title() on messy_name.
-clean_name = messy_name.title()
+# clean_name = messy_name.title()
+
+# Step 9
+# The .strip() method removes whitespace from both ends of a string.
+
+# Example Code
+# messy = '  hello world  '
+# clean = messy.strip()
+# print(clean)  # Output: hello world
+# You can chain .strip() and .title() to remove whitespace from both ends of a string and capitalize the first letter of each word:
+
+# Example Code
+# messy = '  hello world  '
+# clean = messy.strip().title()
+# print(clean)  # Output: Hello World
+# Update the value of clean_name to call .strip() on messy_name before .title().
+
+# After that, print clean_name so that the output reads Cleaned name: 'Sarah Davis'.
+clean_name = messy_name.strip().title()
+print(f"Cleaned name: '{clean_name}'")

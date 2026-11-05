@@ -29,3 +29,17 @@ print(f'Email: {email}')
 # Then print at_position so that the output reads: Position of @: 13.
 at_position = email.find("@")
 print(f'Position of @: {at_position}')
+
+# Step 4
+# Now that you know the position of @ in the email, you can extract the username, which is placed before the @ sign.
+
+# In the previous workshop, you extracted a portion of a string using slicing. As a reminder, the syntax is:
+
+# Example Code
+# text = 'hello world'
+# print(text[:5])  # hello
+# Use slicing on email to extract everything before at_position, and store the result in a variable named username.
+
+# Then print username so that the output reads Username: alice.johnson.
+username =email[:at_position]
+print(f'Username: {username}')

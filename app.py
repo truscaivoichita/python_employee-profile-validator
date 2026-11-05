@@ -130,3 +130,16 @@ messy_email = '  SARAH.DAVIS@COMPANY.COM  '
 clean_email = messy_email.strip().lower()
 print(f"Original email: '{messy_email}'")
 print(f"Cleaned email: '{clean_email}'")
+
+# Step 11
+# The .upper() method converts all characters to uppercase. This is useful for name badges or headings:
+
+# Example Code
+# name = 'sarah davis'
+# badge = name.upper()
+# print(badge)  # Output: SARAH DAVIS
+# Create a variable named name_badge and assign it the result of calling the .upper() method on clean_name.
+
+# Then print name_badge so that the output reads: Name badge: SARAH DAVIS.
+name_badge = clean_name.upper()
+print(f"Name badge: {name_badge}")

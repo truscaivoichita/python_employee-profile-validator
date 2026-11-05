@@ -256,3 +256,13 @@ print(f'Code: {employee_code}')
 print(f'Starts with EMP: {starts_with_emp}')
 print(f'Clean email: {clean_email}')
 print(f'Ends with .com: {ends_with_com}')
+
+# Step 20
+# The .count(substring) method returns the number of non-overlapping occurrences of a substring in a string. For example:
+
+# Example Code
+# text = 'banana'
+# print(text.count('a'))  # Output: 3
+# Create two variables named dot_count and dash_count. dot_count should count how many . characters appear in clean_email, and dash_count should count how many - characters appear in employee_code.
+dot_count = clean_email.count('.')
+dash_count = employee_code.count('-')

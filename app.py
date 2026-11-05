@@ -55,4 +55,11 @@ print(f'Username: {username}')
 
 # Then print has_at so that the output reads: Has @ symbol: True.
 has_at = '@' in email
-print('Has @ symbol: ', has_at)
+print(f'Has @ symbol: {has_at}')
+
+# Step 6
+# Create another variable named has_com that checks if .com is in email.
+
+# Then print has_com so that the output reads: Has .com: True.
+has_com = '.com' in email
+print(f'Has .com: {has_com}')

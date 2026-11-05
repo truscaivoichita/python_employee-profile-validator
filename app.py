@@ -204,3 +204,16 @@ print(f'Phone without dashes: {clean_phone}')
 full_address = '123 Main Street, Springfield, IL'
 address_parts = full_address.split(", ")
 print(f"Address parts: {address_parts}")
+
+# Step 16
+# The .join(list) method is the opposite of .split(). It joins a list of strings into one string using a separator. For example:
+
+# Example Code
+# parts = ['apple', 'banana', 'cherry']
+# joined = ' - '.join(parts)
+# print(joined)  # Output: apple - banana - cherry
+# Join the elements from address_parts with a | character surrounded by spaces and assign the result to a variable named rejoined.
+
+# Then print rejoined so that the output reads: Rejoined: 123 Main Street | Springfield | IL.
+rejoined = ' | '.join(address_parts)
+print(f'Rejoined: {rejoined}')

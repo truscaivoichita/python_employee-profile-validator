@@ -243,3 +243,16 @@ starts_with_emp = employee_code.startswith("EMP")
 # print(code.endswith('001')) # True
 # Create a variable ends_with_com that checks if clean_email ends with .com.
 ends_with_com = clean_email.endswith('.com')
+
+# Step 19
+# Now print employee_code, starts_with_emp, clean_email, and ends_with_com so that the output reads:
+
+# Example Code
+# Code: EMP-2024-SD
+# Starts with EMP: True
+# Clean email: sarah.davis@company.com
+# Ends with .com: True
+print(f'Code: {employee_code}')
+print(f'Starts with EMP: {starts_with_emp}')
+print(f'Clean email: {clean_email}')
+print(f'Ends with .com: {ends_with_com}')

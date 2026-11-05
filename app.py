@@ -158,3 +158,16 @@ at_pos = clean_email.find('@')
 email_user = clean_email[:at_pos]
 print(f'Email: {clean_email}')
 print(f'Username: {email_user}')
+
+# Step 13
+# The .replace(old, new) method replaces every occurrence of the substring old with another, new. You can also chain it with other methods. For example:
+
+# Example Code
+# text = 'john.doe'
+# name = text.replace('.', ' ').title()
+# print(name)  # Output: John Doe
+# Replace . with a single space in email_user, and then call .title() on the result. Assign the result to a variable named display_name.
+
+# Then print display_name so that the output reads: Display name: Sarah Davis.
+display_name = email_user.replace(".", " ").title()
+print(f'Display name: {display_name}')

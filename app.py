@@ -231,3 +231,15 @@ print(f'Rejoined: {rejoined}')
 
 employee_code = 'EMP-2024-SD'
 starts_with_emp = employee_code.startswith("EMP")
+
+# Step 18
+# You might also need to check how a string ends. Python provides the .endswith() method for this. It returns True if the string ends with the given suffix and False if the string does not end with the given suffix.
+
+# Here's an example:
+
+# Example Code
+# code = 'EMP-001'
+# print(code.endswith('EMP')) # False
+# print(code.endswith('001')) # True
+# Create a variable ends_with_com that checks if clean_email ends with .com.
+ends_with_com = clean_email.endswith('.com')

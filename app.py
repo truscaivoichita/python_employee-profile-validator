@@ -266,3 +266,13 @@ print(f'Ends with .com: {ends_with_com}')
 # Create two variables named dot_count and dash_count. dot_count should count how many . characters appear in clean_email, and dash_count should count how many - characters appear in employee_code.
 dot_count = clean_email.count('.')
 dash_count = employee_code.count('-')
+
+# Step 21
+# Now print dot_count and dash_count so that the output reads:
+
+# Example Code
+# Dots in email: 2
+# Dashes in code: 2
+# With that, your employee profile validator workshop is complete!
+print(f'Dots in email: {dot_count}')
+print(f'Dashes in code: {dash_count}')

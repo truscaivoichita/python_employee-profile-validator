@@ -143,3 +143,18 @@ print(f"Cleaned email: '{clean_email}'")
 # Then print name_badge so that the output reads: Name badge: SARAH DAVIS.
 name_badge = clean_name.upper()
 print(f"Name badge: {name_badge}")
+
+# Step 12
+# You already used .find() and slicing on the email variable. Now you will use the same technique on clean_email.
+
+# Find the position of the @ character in clean_email and store it in at_pos. Then use slicing to extract everything before @ and store it in email_user.
+
+# Then print clean_email and email_user so that the output reads:
+
+# Example Code
+# Email: sarah.davis@company.com
+# Username: sarah.davis
+at_pos = clean_email.find('@')
+email_user = clean_email[:at_pos]
+print(f'Email: {clean_email}')
+print(f'Username: {email_user}')

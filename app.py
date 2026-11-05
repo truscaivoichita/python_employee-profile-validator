@@ -103,3 +103,30 @@ print(f"Original name: '{messy_name}'")
 # After that, print clean_name so that the output reads Cleaned name: 'Sarah Davis'.
 clean_name = messy_name.strip().title()
 print(f"Cleaned name: '{clean_name}'")
+
+# Step 10
+# The .lower() method converts all characters in a string to lowercase. This is useful for normalizing email addresses:
+
+# Example Code
+# upperGreet = 'HELLO WORLD'
+# lowerGreet = upperGreet.lower()
+# print(lowerGreet)  # Output: hello world
+# You can call both .strip() and .lower() on a string this way:
+
+# Example Code
+# messy = '  HELLO WORLD  '
+# clean = messy.strip().lower()
+# print(clean)  # Output: hello world
+# Create a variable messy_email and assign it the string SARAH.DAVIS@COMPANY.COM with two leading spaces and two trailing spaces.
+
+# Also, call .strip().lower() on messy_email and assign the result to a variable clean_email.
+
+# Then print both so that the output reads:
+
+# Example Code
+# Original email: '  SARAH.DAVIS@COMPANY.COM  '
+# Cleaned email: 'sarah.davis@company.com'
+messy_email = '  SARAH.DAVIS@COMPANY.COM  '
+clean_email = messy_email.strip().lower()
+print(f"Original email: '{messy_email}'")
+print(f"Cleaned email: '{clean_email}'")

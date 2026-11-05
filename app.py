@@ -41,5 +41,18 @@ print(f'Position of @: {at_position}')
 # Use slicing on email to extract everything before at_position, and store the result in a variable named username.
 
 # Then print username so that the output reads Username: alice.johnson.
-username =email[:at_position]
+username = email[:at_position]
 print(f'Username: {username}')
+
+# Step 5
+# You can check whether a substring exists inside a string using the in keyword. It returns True if the substring exists and False otherwise. Here's an example:
+
+# Example Code
+# sentence = 'I love Python'
+# print('Python' in sentence) # True
+# print('Java' in sentence) # False
+# Create a variable named has_at that checks if the character @ is in email.
+
+# Then print has_at so that the output reads: Has @ symbol: True.
+has_at = '@' in email
+print('Has @ symbol: ', has_at)
